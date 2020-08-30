@@ -14,7 +14,7 @@ def init_browser():
 
 #scraping   
 def scrape():
-    Browser = init_browser()    
+    browser = init_browser()    
     #Scraping data from the existing NASA Mars News website 
     url = "https://mars.nasa.gov/news/"
     response = requests.get(url)
